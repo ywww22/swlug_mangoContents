@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ef6c00"
+    tools:context=".JoinActivity">
+
+    <EditText
+        android:id="@+id/emailArea"
+        android:padding="15dp"
+        android:background="#ffe0b2"
+        android:layout_margin="20dp"
+        android:hint="email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/pwArea"
+        android:padding="15dp"
+        android:background="#ffe0b2"
+        android:hint="password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:padding="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_margin="20dp"
+        android:text="회원 가입"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#ef6c00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
